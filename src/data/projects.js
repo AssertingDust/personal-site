@@ -1,6 +1,18 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Diabetes Risk',
+    subtitle: 'UCSD Neurosciences for SOL-INCA',
+    link: 'https://github.com/RamseyCervantes/diabetes_risk.git',
+    image: '/images/projects/diabetes.jpg',
+    date: '2022-02',
+    desc:
+      'Using the nhanes2 dataset, I analyzed the risk of diabetes among '
+      + 'different demographics based on race and sex (focusing on Black population). '
+      + 'This is done in both Stata and R using regression models and graphs to visualize '
+      + 'the results. In Stata I utilize survey data analysis methods.',
+  },
+  {
     title: 'Motor Imagery Prediction',
     subtitle: 'BRAIN COMPUTER INTERFACES AT UCSD',
     link: 'https://github.com/RamseyCervantes/Cogs-189-Project.git',
@@ -13,7 +25,7 @@ const data = [
       + '(LDA, SVM, and KNN) for accuracy.',
   },
   {
-    title: 'J.O.B.S LESSON PLAN - DESIGN FOR DEVELOPMENT AT UCSD',
+    title: 'J.O.B.S LESSON PLAN',
     subtitle: 'DESIGN FOR DEVELOPMENT AT UCSD',
     image: '/images/projects/JOBS.jpg',
     date: '2021-04',
