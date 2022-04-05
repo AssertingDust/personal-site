@@ -1,47 +1,39 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Motor Imagery Prediction',
+    subtitle: 'BRAIN COMPUTER INTERFACES AT UCSD',
+    link: 'https://github.com/RamseyCervantes/Cogs-189-Project.git',
+    image: '/images/projects/CSP.jpg',
+    date: '2022-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'My team built machine learning models in an EEG setup in order to predict '
+      + 'motor imagery. We utilized filtering, epocking, CSP, and binary classification. '
+      + ' In addition to this, we implemented several machine learning methods '
+      + '(LDA, SVM, and KNN) for accuracy.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'J.O.B.S LESSON PLAN - DESIGN FOR DEVELOPMENT AT UCSD',
+    subtitle: 'DESIGN FOR DEVELOPMENT AT UCSD',
+    image: '/images/projects/JOBS.jpg',
+    date: '2021-04',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Led design of a lesson plan in collaboration with High Tech Elementary '
+      + 'to provide 4th grade HTe students with a fun and interactive lesson/activity '
+      + 'centered around the them of career exploration in order to research and explore '
+      + 'different career paths to gain a better understanding of the skills and '
+      + 'experience needed.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'PARK POPULARITY ANALYSIS',
+    subtitle: 'DATA SCIENCE IN PRACTICE AT UCSD',
+    link: 'https://github.com/RamseyCervantes/Relation-Between-Parks-and-Rec-Centers-Distance.git',
+    image: '/images/projects/Ruocco Park_5.jpg',
+    date: '2020-10',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Compiled, cleaned, and analyzed datasets of parks and rec centers to determine '
+      + 'if the distance between the two correlated in affecting how popular the park '
+      + 'is in terms of amount of Yelp reviews.',
   },
 ];
 

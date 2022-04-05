@@ -1,8 +1,8 @@
 const positions = [
   {
     company: 'UCSD Neurosciences',
-    position: 'Data Analyst',
-    link: 'solincalab.org',
+    position: 'Data Analyst for SOL-INCA Lab',
+    link: 'https://www.solincalab.org/',
     daterange: 'November 2021 - Present',
     points: [
       'Implement survey regression models (Gaussian or binomial family and logit), using R or Stata',
@@ -13,7 +13,6 @@ const positions = [
   {
     company: 'Motor Imagery Prediction',
     position: 'Brain Computer Interfaces at UCSD',
-    link: '',
     daterange: 'January 2022 - March 2022',
     points: [
       'Built ML models in an EEG setup to predict one’s motor imagery',
@@ -24,7 +23,6 @@ const positions = [
   {
     company: 'J.O.B.S Lesson Plan',
     position: 'Design for Development at UCSD',
-    link: '',
     daterange: 'April 2021 - June 2021',
     points: [
       'Led a team to design a lesson plan in collaboration with High Tech Elementary',
@@ -35,7 +33,6 @@ const positions = [
   {
     company: 'Park Popularity Analysis',
     position: 'Data Science in Practice at UCSD',
-    link: '',
     daterange: 'October 2020 - December 2022',
     points: [
       'Compiled and cleaned datasets of San Diego parks and rec centers utilizing Python for analysis',
@@ -46,7 +43,6 @@ const positions = [
   {
     company: 'McGillivray Construction',
     position: 'Seasonal Laborer',
-    link: '',
     daterange: 'June 2016 - July 2020',
     points: [
       'Clean work areas, machines, and equipment to maintain a clean and safe job site',
