@@ -13,6 +13,7 @@ const Course = ({ data, last }) => (
 
 Course.propTypes = {
   data: PropTypes.shape({
+    link: PropTypes.string,
     number: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
   }).isRequired,
