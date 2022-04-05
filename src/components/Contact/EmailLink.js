@@ -8,23 +8,7 @@ const validateText = (text) => {
   return re.test(text) || text.length === 0;
 };
 
-const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
-];
+const messages = [''];
 
 const useInterval = (callback, delay) => {
   const savedCallback = useRef();
@@ -76,9 +60,9 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}rcervant@ucsd.edu` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>rcervant@ucsd.edu</span>
       </a>
     </div>
   );
