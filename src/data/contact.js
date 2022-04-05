@@ -5,7 +5,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 
 const data = [
   {
-    link: 'https://github.com/AssertingDust',
+    link: 'https://github.com/RamseyCervantes',
     label: 'Github',
     icon: faGithub,
   },
